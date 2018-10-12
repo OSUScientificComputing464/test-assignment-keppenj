@@ -7,7 +7,7 @@ from scipy import stats
 plt.style.use('seaborn-whitegrid') #Setting up background for plot
 
 data = np.loadtxt("students/one-jk/data/data.txt") #Loading in data from subfolder
-#print(data) #Ensuring that data is being imported
+#print(data)  #Ensuring that data is being imported
 
 x = data[:,0] #Splitting up the dataset into x and y
 y = data[:,1]
